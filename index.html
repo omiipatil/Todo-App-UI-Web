@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js" integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+<!-- Heading TodoList -->
+
+        <div class="heading">
+            <div class="task">
+                <span style="font-weight: bolder; color: black;">Tasks</span> Lists
+            </div>
+            <div class="add_task">
+                <div><i class="fas fa-plus-circle fa-2x" style="color: rgb(245, 88, 49);"></i></i></div>
+                <div style="font-size: 30px; color: grey; margin-left: 8px;">Add list</div>
+            </div>
+        </div>
+        <br>
+
+<!-- TodoList Boxes -->
+
+        <div class="container">
+            <div class="boxes">
+                <p class="task_h">Trip to Paris</p>
+                <hr style="margin-bottom: 30px; margin-left: 30px;">
+                <p class="strike">Completed task</p>
+                <input type="checkbox" name="pending" id="task_p" value="task_completed" style="float: left; margin-right: 8px;">
+                <label for="task_p" style="float:left;">Pending Task</label>
+            </div>
+            <div class="boxes">
+                <p class="task_h">My Todo List</p>
+                <hr style="margin-bottom: 30px; margin-left: 30px;">
+                <p class="strike">Completed task</p>
+                <input type="checkbox" name="pending" id="task_pe" value="task_completed" style="float: left; margin-right: 8px;">
+                <label for="task_pe" style="float:left;">Pending task</label>
+            </div>
+            <div class="boxes">
+                <p class="task_h">My Todo List</p>
+                <hr style="margin-bottom: 30px; margin-left: 30px;">
+                <p class="strike">Completed task</p>
+                <input type="checkbox" name="pending" id="task_pen" value="task_completed" style="float: left; margin-right: 8px;">
+                <label for="task_pen" style="float:left;">Pending Task</label>
+            </div>
+        </div>
+        
+<!-- Page switching -->
+
+    <div class="pages">
+        <div style="margin-top: 15px; margin-right: 9px;"><a href="./index.html">Home</a></div>
+        <div style="margin-top: 15px; margin-right: 9px;"><a href="./page4.html">Page 4</a></div>
+        <p style="color: grey;">1 of 4</p>
+        <div style="margin-top: 15px; margin-left: 9px;"><a href="./page2.html">Page 2</a></div>
+    </div>
+</body>
+</html>
